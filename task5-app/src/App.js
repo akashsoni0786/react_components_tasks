@@ -1,6 +1,8 @@
 import './App.css';
+import React from 'react';
 import { Navbar,ProfileDashboard,Trends,Feeds,HowToFollow } from './Compo';
-function App() {
+class App extends React.Component{
+  render(){
   return (
     <div className="App">
       <Navbar />
@@ -23,6 +25,7 @@ function App() {
       
     </div>
   );
+}
 }
 
 export default App;
